@@ -1,0 +1,13 @@
+---
+buildName: "funktion-java-example-steven"
+links:
+  Git: "https://github.com/stevenzhou2006/funktion-java-example.git"
+  Job: "http://192.168.39.125:32460/job/funktion-java-example-steven"
+  Production: "http://10.103.222.32:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.103.222.32:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.103.222.32:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
